@@ -1,8 +1,11 @@
 [
-{
-  "name": "二叉树树的博客",
-  "link": ["https://blog.2x.nz", "https://space.bilibili.com/325903362"],
-  "description": "这个人是大佬哇",
-  "avatar": "https://i0.hdslb.com/bfs/face/e2cfad5dcbe1fa34c7afda3803d4186c878dbc0c.jpg"
-}
+  {
+    "name": "二叉树树的博客",
+    "link": [
+      "https://blog.2x.nz",
+      "https://space.bilibili.com/325903362"
+    ],
+    "description": "这个人是大佬哇",
+    "avatar": "https://i0.hdslb.com/bfs/face/e2cfad5dcbe1fa34c7afda3803d4186c878dbc0c.jpg"
+  }
 ]
