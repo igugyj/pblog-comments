@@ -103,9 +103,9 @@ Thanks for your review, looking forward to the mutual link!
 
 ```json
 {
-  "name": "FunRadiusP Pblog",
-  "link": ["https://pg25-lsae.eu.org","https://pfolg.qzz.io"],
-  "description": "learning, life, and thoughts.",
+  "name": "Pfolg",
+  "link": ["https://pg25-lsae.eu.org","https://pfolg.qzz.io","https://github.com/csy214-beep","https://space.bilibili.com/515553532"],
+  "description": "于二进制潮汐涨落之间求索",
   "avatar": "https://avatars.githubusercontent.com/u/237149328"
 }
 ```
