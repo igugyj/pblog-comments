@@ -98,6 +98,20 @@ Thanks for your review, looking forward to the mutual link!
 - 稳定运行，无大量 404 或挂掉
 - 希望你也能在网站中添加本站的链接（互惠互利）
 
+<details>
+<summary>我的数据</summary>
+
+```json
+{
+  "name": "FunRadiusP Pblog",
+  "link": ["https://pg25-lsae.eu.org","https://pfolg.qzz.io"],
+  "description": "learning, life, and thoughts.",
+  "avatar": "https://avatars.githubusercontent.com/u/237149328"
+}
+```
+
+</details>
+
 ## 常见问题
 
 **Q：可以添加多个链接吗？**
