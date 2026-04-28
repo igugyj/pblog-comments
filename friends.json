@@ -1,197 +1,200 @@
 [
   {
-    "name": "test",
+    "name": "Alice Blog",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/alice",
+      "https://alice-blog.example.com/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
   },
   {
-    "name": "test",
+    "name": "Bob Tech",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/bob",
+      "https://bob.dev/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/2.jpg"
   },
   {
-    "name": "test",
+    "name": "Cathy Notes",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/cathy",
+      "https://cathy.xyz/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/3.jpg"
   },
   {
-    "name": "test",
+    "name": "David Code",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/david",
+      "https://davidcoding.com/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/4.jpg"
   },
   {
-    "name": "test",
+    "name": "Eva Design",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/eva",
+      "https://eva.design/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/5.jpg"
   },
   {
-    "name": "test",
+    "name": "Frank AI",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/frank",
+      "https://frank-ai.space/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/6.jpg"
   },
   {
-    "name": "test",
+    "name": "Grace Dev",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/grace",
+      "https://grace.dev/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/7.jpg"
   },
   {
-    "name": "test",
+    "name": "Henry Blog",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/henry",
+      "https://henrylog.com/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/8.jpg"
   },
   {
-    "name": "test",
+    "name": "Iris Lab",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/iris",
+      "https://iris-lab.org/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/9.jpg"
   },
   {
-    "name": "test",
+    "name": "Jack Cloud",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/jack",
+      "https://jackcloud.net/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/10.jpg"
   },
   {
-    "name": "test",
+    "name": "Kate Web",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/kate",
+      "https://kateweb.xyz/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/11.jpg"
   },
   {
-    "name": "test",
+    "name": "Leo Frontend",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/leo",
+      "https://leofront.com/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/12.jpg"
   },
   {
-    "name": "test",
+    "name": "Mia Game",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/mia",
+      "https://miagame.art/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/13.jpg"
   },
   {
-    "name": "test",
+    "name": "Nick Ops",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/nick",
+      "https://nickops.io/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/14.jpg"
   },
   {
-    "name": "test",
+    "name": "Olivia Data",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/olivia",
+      "https://oliviadata.com/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/15.jpg"
   },
   {
-    "name": "test",
+    "name": "Paul Rust",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/paul",
+      "https://paulrust.tech/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/16.jpg"
   },
   {
-    "name": "test",
+    "name": "Quinn Vue",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/quinn",
+      "https://quinnvue.com/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/17.jpg"
   },
   {
-    "name": "test",
+    "name": "Ryan Backend",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/ryan",
+      "https://ryanbackend.xyz/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/18.jpg"
   },
   {
-    "name": "test",
+    "name": "Sara JVM",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/sara",
+      "https://sarajvm.com/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/19.jpg"
   },
   {
-    "name": "test",
+    "name": "Tom Go",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/tom",
+      "https://tomgo.dev/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/20.jpg"
   },
   {
-    "name": "test",
+    "name": "Una Security",
     "link": [
-      "https://github.com/csy214-beep",
-      "https://pg25-lsae.eu.org/"
+      "https://github.com/una",
+      "https://unasec.space/"
     ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/women/21.jpg"
   },
   {
-    "name": "test",
-    "link": ["https://github.com/csy214-beep", "https://pg25-lsae.eu.org/"],
+    "name": "Vic React",
+    "link": [
+      "https://github.com/vic",
+      "https://vicreact.io/"
+    ],
     "description": "我的博客，测试友链可用性",
-    "avatar": "https://avatars.githubusercontent.com/u/237149328"
+    "avatar": "https://randomuser.me/api/portraits/men/22.jpg"
   }
 ]
