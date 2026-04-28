@@ -1,0 +1,33 @@
+name: Friend Link Health Check
+
+on:
+  schedule:
+    # Every Monday at 00:00 UTC (every 7 days)
+    - cron: '0 0 * * 1'
+  workflow_dispatch:  # allow manual trigger
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run friend link checker
+        run: python check_friends.py
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "ci: update friend link status"
+          file_pattern: "friends.json friends.unlink.json"
