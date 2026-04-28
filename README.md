@@ -1,6 +1,6 @@
 # 如何添加友链？
 
-![Friend Links Check](https://img.shields.io/github/actions/workflow/csy214-beep/pblog-comments/check_friends.yml?label=Friend%20Links&logo=github)
+![Friend Links Check](https://github.com/csy214-beep/pblog-comments/actions/workflows/check_friends.yml/badge.svg)
 
 欢迎来和本博客互换友链！你可以通过以下任意一种方式提交你的网站信息。
 
