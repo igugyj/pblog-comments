@@ -1,6 +1,6 @@
 # 如何添加友链？
 
-![Friend Links Check](https://github.com/csy214-beep/pblog-comments/actions/workflows/check_friends.yml/badge.svg)
+![Friend Links Check](https://github.com/csy214-beep/pblog-comments/actions/workflows/check_friends.yml/badge.svg) [![Sync to Gitee](https://github.com/csy214-beep/pblog-comments/actions/workflows/sync-to-gitee.yml/badge.svg?branch=main)](https://github.com/csy214-beep/pblog-comments/actions/workflows/sync-to-gitee.yml)
 
 欢迎来和本博客互换友链！你可以通过以下任意一种方式提交你的网站信息。
 
