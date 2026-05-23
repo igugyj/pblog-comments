@@ -111,6 +111,7 @@ Thanks for your review, looking forward to the mutual link!
   "avatar": "https://avatars.githubusercontent.com/u/237149328"
 }
 ```
+> 不强制要求您添加我的链接
 
 </details>
 
@@ -123,7 +124,7 @@ A：可以，`link` 字段支持字符串数组，每个链接都会独立显示
 A：如果不提供或图片加载失败，页面会自动显示名称的首字母作为头像。
 
 **Q：我的信息多久能上线？**
-A：采用 ISSUE/PR 方式，我处理后手动触发网站重新部署；邮件方式可能会稍慢。通常在 1-2 天内完成。
+A：采用 ISSUE/PR 方式，我处理后更新在`friends.json`即可显示在网站上；邮件方式可能会稍慢。通常在 1-2 天内完成。
 
 ---
 
