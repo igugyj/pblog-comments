@@ -8,5 +8,24 @@
     ],
     "description": "Loves traveling, photography, and public transportation.",
     "avatar": "https://avatars.githubusercontent.com/u/89643991"
+  },
+  {
+    "name": "Jursin 的博客",
+    "link": [
+      "https://blog.jursin.top",
+      "https://github.com/Jursin"
+    ],
+    "description": "若要梦想实现，先从梦中醒来",
+    "avatar": "https://blog.jursin.top/avatar.png",
+    "rss": "https://blog.jursin.top/rss.xml"
+  },
+  {
+    "name": "LC的网站",
+    "link": [
+      "https://lcwebsite.cn",
+      "https://github.com/lc6464"
+    ],
+    "description": "信念创造奇迹，科技改变生活。",
+    "avatar": "https://avatars.githubusercontent.com/u/64722907"
   }
 ]
