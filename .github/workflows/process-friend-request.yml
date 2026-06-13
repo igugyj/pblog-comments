@@ -21,8 +21,12 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests pygithub
-
+        run: |
+          if command -v uv &> /dev/null; then
+            uv pip install requests pygithub
+          else
+            python -m pip install requests pygithub
+          fi
       - name: Process friend request
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
