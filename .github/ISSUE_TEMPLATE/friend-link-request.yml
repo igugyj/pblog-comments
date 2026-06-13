@@ -1,76 +1,44 @@
-name: 申请友链
+name: 友链申请
 description: 申请与本站交换友情链接
-title: "添加友链 - "
+title: "[Friend Link Request] - "
 labels: ["friend-link"]
 body:
   - type: markdown
     attributes:
       value: |
-        欢迎申请友链！请填写以下信息，提交后我会尽快处理。
-        务必确保你的站点已添加本站链接（不强制，但互惠互利）。
+        欢迎申请友链！请在下方粘贴你准备好的 JSON 数据（格式如下）：
 
-  - type: input
-    id: name
-    attributes:
-      label: 网站名称
-      description: 你的博客/网站名称
-      placeholder: 例如：张三的博客
-    validations:
-      required: true
-
-  - type: textarea
-    id: links
-    attributes:
-      label: 链接地址（可多个）
-      description: 每行一个 URL，支持博客、GitHub、Twitter 等
-      placeholder: |
-        https://myblog.com
-        https://github.com/username
-      value: |
-        https://
-    validations:
-      required: true
-
-  - type: input
-    id: description
-    attributes:
-      label: 网站简介
-      description: 一句话介绍（不超过 50 字）
-      placeholder: 例如：技术分享与生活随笔
-    validations:
-      required: true
-
-  - type: input
-    id: avatar
-    attributes:
-      label: 头像直链
-      description: 正方形图片，建议 200x200 以上
-      placeholder: https://example.com/avatar.png
-    validations:
-      required: true
-
-  - type: textarea
-    id: json
-    attributes:
-      label: 生成的 JSON（自动填充，可手动修正）
-      description: 提交前请确认信息正确
-      render: json
-      value: |
+        ```json
         {
-          "name": "",
-          "link": [],
-          "description": "",
-          "avatar": ""
+          "name": "你的网站名称",
+          "link": ["https://你的网址.com", "https://另一个链接.com"],
+          "description": "简短介绍（不超过50字）",
+          "avatar": "https://example.com/avatar.png"
         }
+        ```
+
+  - type: textarea
+    id: json_data
+    attributes:
+      label: 友链 JSON 数据
+      description: 请直接粘贴完整的 JSON 对象（一个或数组均可）
+      placeholder: |
+        {
+          "name": "示例博客",
+          "link": ["https://example.com"],
+          "description": "分享技术心得",
+          "avatar": "https://example.com/avatar.png"
+        }
+      render: json
     validations:
       required: true
 
   - type: checkboxes
-    id: terms
+    id: confirm
     attributes:
       label: 确认事项
       options:
         - label: 我已阅读并同意审核标准（网站内容健康、稳定运行）
           required: true
-        - label: 我已将本站链接添加到我的网站（非强制，但鼓励）
+        - label: 我已将本站链接添加到我的网站（非强制但鼓励）
           required: false
