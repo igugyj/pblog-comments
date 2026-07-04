@@ -37,5 +37,14 @@
     ],
     "description": "一团温暖的粘土博客",
     "avatar": "https://taoran.weppp.cyou/favicon.svg"
+  },
+  {
+    "name": "CUIT 指南",
+    "link": [
+      "https://guide.cuit.dev",
+      "https://github.com/epoch-lab/cuit-guide"
+    ],
+    "description": "CUIT 指南 ",
+    "avatar": ""
   }
 ]
