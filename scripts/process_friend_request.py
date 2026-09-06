@@ -98,7 +98,9 @@ def main():
     entry = extract_json_from_body(issue.body)
     if entry is None:
         issue.create_comment(
-            "❌ 无法从 Issue 内容中解析 JSON 数据。请确保你提供了正确的 JSON 格式（可使用 ```json 代码块）。"
+            """> [!CAUTION]
+> 无法从 Issue 内容中解析 JSON 数据。
+> 请确保你提供了正确的 JSON 格式（可使用 ```json 代码块）。"""
         )
         issue.edit(state="closed")
         sys.exit(0)
@@ -106,7 +108,10 @@ def main():
     # If user provided an array, take the first element (or process multiple? We'll take first for simplicity)
     if isinstance(entry, list):
         if len(entry) == 0:
-            issue.create_comment("❌ JSON 数组为空，至少需要一个友链对象。")
+            issue.create_comment(
+                """> [!CAUTION]
+> JSON 数组为空，至少需要一个友链对象。"""
+            )
             issue.edit(state="closed")
             sys.exit(0)
         entry = entry[0]
@@ -115,7 +120,12 @@ def main():
     valid, err_msg = validate_entry(entry)
     if not valid:
         issue.create_comment(
-            f"❌ 友链验证失败：\n\n{err_msg}\n\n请修正后重新提交 Issue（关闭当前 Issue 再新建）。"
+            f"""> [!CAUTION]
+> 友链验证失败：
+>
+> {err_msg}
+>
+> 请修正后重新提交 Issue（关闭当前 Issue 再新建）。"""
         )
         issue.edit(state="closed")
         sys.exit(0)
@@ -151,7 +161,8 @@ def main():
             break
     if exists:
         issue.create_comment(
-            "ℹ️ 该友链（相同名称或链接）已存在于 `friends.json` 中，无需重复添加。"
+            """> [!NOTE]
+> 该友链（相同名称或链接）已存在于 `friends.json` 中，无需重复添加。"""
         )
         issue.edit(state="closed")
         sys.exit(0)
@@ -192,13 +203,22 @@ def main():
         subprocess.run(["git", "push"], check=True)
     except subprocess.CalledProcessError as e:
         issue.create_comment(
-            f"⚠️ 验证通过，但提交到仓库时失败：{e}\n请手动合并或通知管理员。"
+            f"""> [!WARNING]
+> 验证通过，但提交到仓库时失败：
+>
+> {e}
+>
+> 请手动合并或通知管理员。"""
         )
         issue.edit(state="closed")
         sys.exit(0)
 
     # Comment success and close issue
-    comment = f"✅ 友链添加成功！\n\n**{entry['name']}** 已加入 `friends.json`。\n感谢你的支持！"
+    comment = f"""> [!TIP]
+> 友链添加成功！
+>
+> **{entry['name']}** 已加入 `friends.json`。
+> 感谢你的支持！"""
     issue.create_comment(comment)
     issue.edit(state="closed")
 
