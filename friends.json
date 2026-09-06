@@ -46,5 +46,14 @@
     ],
     "description": "CUIT 指南 ",
     "avatar": ""
+  },
+  {
+    "name": "CN059的技术博客",
+    "link": [
+      "https://blog.cn059.com",
+      "https://github.com/CN059"
+    ],
+    "description": "喜欢技术，喜欢你",
+    "avatar": "https://bu.dusays.com/2025/10/09/68e798c0a1dc6.jpg"
   }
 ]
